@@ -88,20 +88,27 @@ nav {
   font-family: "Bebas Neue", cursive;
   text-align: center;
   font-size: 3.5em;
-  margin-top: 1.5em;
+  margin-top: 1.7em;
   color: rgb(238, 232, 232);
   text-shadow: 1.5px 1px 1.5px rgba(0, 0, 0, 0.6);
 }
 .hero p {
-  max-width: 500px;
+  margin-top: 1em;
+  max-width: 650px;
   color: rgb(218, 212, 212);
   text-align: center;
 }
 
 .hero a {
-  margin-top: 4em;
+  margin-top: 1em;
   color: rgba(193, 211, 90, 0.856);
   text-decoration: none;
+}
+
+.hero a:hover {
+  color: rgba(171, 187, 80, 0.897);
+
+  padding-top: 4px;
 }
 
 .ussection {
