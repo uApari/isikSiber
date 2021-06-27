@@ -1,0 +1,207 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  margin-top: 100px;
+  list-style-type: none;
+}
+.header {
+  background-color: rgba(14, 131, 248, 0.801);
+  height: 100px;
+  width: 100%;
+}
+#discord,
+#twitter,
+#instagram {
+  color: rgba(9, 47, 78, 0.932);
+}
+#discord:hover,
+#twitter:hover,
+#instagram:hover {
+  color: rgb(8, 17, 26);
+  padding-top: 2px;
+}
+#discord:active,
+#twitter:active,
+#instagram:active {
+  top: 2px;
+  left: 2px;
+}
+
+ul li {
+  font-size: 14px;
+  padding: 0.35em;
+  margin: 2em 5em 2em 2em;
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-right: 5em;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.navlogo {
+  width: 100px;
+  height: auto;
+  padding: 0.3em;
+  margin-left: 5em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(14, 131, 248, 0.973);
+  border-bottom: rgb(23, 114, 204) solid 2px;
+  box-shadow: -10px 2px 27px 10px rgba(16, 100, 209, 0.75);
+  -webkit-box-shadow: -10px 2px 27px 10px rgba(20, 70, 209, 0.863);
+  -moz-box-shadow: -10px 2px 27px 10px rgba(7, 111, 230, 0.75);
+}
+.hero {
+  background-color: rgb(14, 131, 248);
+  width: 100%;
+  height: 100%;
+  padding: 5em 0 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  border-bottom: rgb(23, 114, 204) solid 1px;
+}
+.hero h1 {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-size: 3.5em;
+  margin-top: 1.5em;
+  color: rgb(238, 232, 232);
+  text-shadow: 1.5px 1px 1.5px rgba(0, 0, 0, 0.6);
+}
+.hero p {
+  max-width: 500px;
+  color: rgb(218, 212, 212);
+  text-align: center;
+}
+
+.hero a {
+  margin-top: 4em;
+  color: rgba(193, 211, 90, 0.856);
+  text-decoration: none;
+}
+
+.ussection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  padding-bottom: 1em;
+  border-bottom: rgb(105, 105, 105) solid 1px;
+}
+
+.us h2 {
+  margin-top: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 2em;
+  text-shadow: 1.5px 1px 1.5px rgba(0, 0, 0, 0.6);
+}
+.uscontent ul {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.uscontent ul li {
+  width: 33.3%;
+}
+
+.neler {
+  background-color: rgb(14, 131, 248);
+  width: 100%;
+  height: 100%;
+  padding: 20em 0 25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(238, 232, 232);
+}
+
+.neler h3 {
+  margin-top: 1.5em;
+  text-align: center;
+  text-shadow: 1.5px 1px 1.5px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+
+.neler ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  max-height: 40em;
+}
+
+.neler ul li {
+  list-style-type: none;
+  margin: 0;
+  line-height: 1;
+}
+.neler ul li p {
+  font-size: 1.5em;
+  color: rgb(218, 212, 212);
+}
+
+footer {
+  height: 25px;
+  background-color: rgba(193, 211, 90, 0.856);
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(193, 211, 90); /* Set a background color */
+  color: rgb(0, 0, 0); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  height: 50px;
+  width: 50px;
+  border-radius: 50%; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
