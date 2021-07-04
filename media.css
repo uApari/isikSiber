@@ -1,0 +1,76 @@
+@media only screen and (max-width: 660px) {
+  ul {
+    margin: 0;
+    align-items: center;
+  }
+  ul li {
+    margin: 0 1.25em 0 0;
+    padding: 0;
+  }
+
+  .navlogo {
+    margin-left: 1.25em;
+  }
+
+  .hero p {
+    font-size: 0.75em;
+    margin: 2em 1em 0 1em;
+  }
+
+  .hero a {
+    margin-top: 2em;
+  }
+
+  .uscontent ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    gap: 1em 1em;
+    grid-template-areas:
+      ". ."
+      ". ."
+      ". .";
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .us {
+    margin: 0 0.5em;
+  }
+  .us p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .kimiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .kimiz img {
+    order: 1;
+  }
+  .kimiz p {
+    order: 2;
+  }
+
+  .uyeler p {
+    max-width: 500px;
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  .right p {
+    margin: 0;
+  }
+  .us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
