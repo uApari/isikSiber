@@ -18,7 +18,7 @@
   }
 
   .hero a {
-    margin-top: 2em;
+    margin-top: 1.5em;
   }
 
   .uscontent ul {
@@ -51,6 +51,7 @@
   }
   .kimiz img {
     order: 1;
+    margin-right: 0;
   }
   .kimiz p {
     order: 2;
@@ -72,5 +73,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .neler {
+    padding-bottom: 29em;
+  }
+
+  footer p {
+    font-size: 13px;
+    text-align: center;
   }
 }
