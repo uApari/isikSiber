@@ -90,21 +90,25 @@ nav {
   font-family: "Bebas Neue", cursive;
   text-align: center;
   font-size: 3.5em;
-  margin-top: 1.7em;
+  margin-top: 2.8em;
   color: rgb(238, 232, 232);
   text-shadow: 1.5px 1px 1.5px rgba(0, 0, 0, 0.6);
 }
 .hero p {
-  margin-top: 1em;
-  max-width: 650px;
+  margin-bottom: 2em;
+  max-width: 1050px;
   color: rgb(218, 212, 212);
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.6);
 }
 
 .hero a {
-  margin-top: 1em;
   color: rgba(193, 211, 90, 0.856);
   text-decoration: none;
+  text-shadow: 1.5px 1px 1.5px rgba(0, 0, 0, 0.6);
+  margin-bottom: 4em;
+  font-size: 25px;
 }
 
 .hero a:hover {
@@ -122,6 +126,7 @@ nav {
   font-size: 25px;
   padding-bottom: 1em;
   border-bottom: rgb(105, 105, 105) solid 1px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .us h2 {
@@ -157,13 +162,14 @@ nav {
   flex-direction: column;
   text-align: center;
   color: rgb(238, 232, 232);
+  font-family: "Montserrat", sans-serif;
 }
 
 .neler h3 {
   margin-top: 1.5em;
   text-align: center;
   text-shadow: 1.5px 1px 1.5px rgba(0, 0, 0, 0.6);
-  font-size: 5em;
+  font-size: 3em;
 }
 
 .neler ul {
