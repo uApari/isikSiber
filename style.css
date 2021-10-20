@@ -10,6 +10,10 @@ body {
   width: 100%;
   z-index: 99;
 }
+
+.testimonials #instagram {
+  color: rgb(228, 17, 210);
+}
 #discord,
 #twitter,
 #instagram {
@@ -264,11 +268,12 @@ footer a {
 
 .testimonials img {
   align-items: center;
-  width: 200px !important;
-  height: 190px;
+  width: 300px !important;
+  height: 300px;
   border: 1px solid rgb(223, 223, 223);
   border-radius: 50%;
   margin: 0 0 20px 0;
+  object-fit: cover;
 
   @media (mid-width: 600px) {
     margin: 0 20px 0 0;
@@ -339,11 +344,7 @@ footer a {
   height: 12px;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(
-    272deg,
-    rgb(27, 113, 199) 0%,
-    rgb(13, 79, 146) 100%
-  );
+  background: linear-gradient(272deg, rgb(13, 60, 107) 0%, rgb(4, 30, 56) 100%);
   border-radius: 3px;
   background-color: transparent;
 }
